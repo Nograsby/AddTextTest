@@ -1,0 +1,324 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F89C5A7F1E31E54400C7019C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F89C5A7E1E31E54400C7019C /* main.m */; };
+		F89C5A821E31E54400C7019C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F89C5A811E31E54400C7019C /* AppDelegate.m */; };
+		F89C5A881E31E54400C7019C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89C5A861E31E54400C7019C /* Main.storyboard */; };
+		F89C5A8A1E31E54400C7019C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F89C5A891E31E54400C7019C /* Assets.xcassets */; };
+		F89C5A8D1E31E54400C7019C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F89C5A8B1E31E54400C7019C /* LaunchScreen.storyboard */; };
+		F89C5A971E31EC9C00C7019C /* ImageViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F89C5A961E31EC9C00C7019C /* ImageViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		F89C5A7A1E31E54400C7019C /* Fontmania_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Fontmania_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		F89C5A7E1E31E54400C7019C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F89C5A801E31E54400C7019C /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F89C5A811E31E54400C7019C /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F89C5A871E31E54400C7019C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F89C5A891E31E54400C7019C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F89C5A8C1E31E54400C7019C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F89C5A8E1E31E54400C7019C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F89C5A951E31EC9C00C7019C /* ImageViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = ImageViewController.h; path = Controller/ImageViewController.h; sourceTree = "<group>"; };
+		F89C5A961E31EC9C00C7019C /* ImageViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = ImageViewController.m; path = Controller/ImageViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F89C5A771E31E54400C7019C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F89C5A711E31E54300C7019C = {
+			isa = PBXGroup;
+			children = (
+				F89C5A7C1E31E54400C7019C /* Fontmania_test */,
+				F89C5A7B1E31E54400C7019C /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		F89C5A7B1E31E54400C7019C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F89C5A7A1E31E54400C7019C /* Fontmania_test.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F89C5A7C1E31E54400C7019C /* Fontmania_test */ = {
+			isa = PBXGroup;
+			children = (
+				F89C5A801E31E54400C7019C /* AppDelegate.h */,
+				F89C5A811E31E54400C7019C /* AppDelegate.m */,
+				F89C5A941E31E96C00C7019C /* Controller */,
+				F89C5A861E31E54400C7019C /* Main.storyboard */,
+				F89C5A891E31E54400C7019C /* Assets.xcassets */,
+				F89C5A8B1E31E54400C7019C /* LaunchScreen.storyboard */,
+				F89C5A8E1E31E54400C7019C /* Info.plist */,
+				F89C5A7D1E31E54400C7019C /* Supporting Files */,
+			);
+			path = Fontmania_test;
+			sourceTree = "<group>";
+		};
+		F89C5A7D1E31E54400C7019C /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				F89C5A7E1E31E54400C7019C /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		F89C5A941E31E96C00C7019C /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				F89C5A951E31EC9C00C7019C /* ImageViewController.h */,
+				F89C5A961E31EC9C00C7019C /* ImageViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F89C5A791E31E54400C7019C /* Fontmania_test */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F89C5A911E31E54400C7019C /* Build configuration list for PBXNativeTarget "Fontmania_test" */;
+			buildPhases = (
+				F89C5A761E31E54400C7019C /* Sources */,
+				F89C5A771E31E54400C7019C /* Frameworks */,
+				F89C5A781E31E54400C7019C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Fontmania_test;
+			productName = Fontmania_test;
+			productReference = F89C5A7A1E31E54400C7019C /* Fontmania_test.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F89C5A721E31E54300C7019C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0810;
+				ORGANIZATIONNAME = "Vladimir Ananko";
+				TargetAttributes = {
+					F89C5A791E31E54400C7019C = {
+						CreatedOnToolsVersion = 8.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = F89C5A751E31E54300C7019C /* Build configuration list for PBXProject "Fontmania_test" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F89C5A711E31E54300C7019C;
+			productRefGroup = F89C5A7B1E31E54400C7019C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F89C5A791E31E54400C7019C /* Fontmania_test */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F89C5A781E31E54400C7019C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89C5A8D1E31E54400C7019C /* LaunchScreen.storyboard in Resources */,
+				F89C5A8A1E31E54400C7019C /* Assets.xcassets in Resources */,
+				F89C5A881E31E54400C7019C /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F89C5A761E31E54400C7019C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F89C5A821E31E54400C7019C /* AppDelegate.m in Sources */,
+				F89C5A971E31EC9C00C7019C /* ImageViewController.m in Sources */,
+				F89C5A7F1E31E54400C7019C /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		F89C5A861E31E54400C7019C /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89C5A871E31E54400C7019C /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F89C5A8B1E31E54400C7019C /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F89C5A8C1E31E54400C7019C /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F89C5A8F1E31E54400C7019C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F89C5A901E31E54400C7019C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVES = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F89C5A921E31E54400C7019C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fontmania_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nograsby.Fontmania-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F89C5A931E31E54400C7019C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Fontmania_test/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.Nograsby.Fontmania-test";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F89C5A751E31E54300C7019C /* Build configuration list for PBXProject "Fontmania_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89C5A8F1E31E54400C7019C /* Debug */,
+				F89C5A901E31E54400C7019C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F89C5A911E31E54400C7019C /* Build configuration list for PBXNativeTarget "Fontmania_test" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F89C5A921E31E54400C7019C /* Debug */,
+				F89C5A931E31E54400C7019C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F89C5A721E31E54300C7019C /* Project object */;
+}
